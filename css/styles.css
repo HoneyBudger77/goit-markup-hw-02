@@ -17,9 +17,9 @@
     --secondary-font: Raleway;
 }
 .body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+    font-family: var(--primary-font), sans-serif;
+    color: var(--color-slate);
+    background-color: var(--color-white);
     
     
 }
@@ -42,6 +42,7 @@
 .header-logo {
 }
 .header-logo-two {
+    color: #2E2F42;
 
 }
 .header-list {
