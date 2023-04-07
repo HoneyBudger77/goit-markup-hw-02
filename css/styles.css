@@ -121,3 +121,51 @@ body {
   color: var(--color-cloud);
 }
 
+/* Hero secction*/
+.hero-section {
+  background-color: var(--hero-bg-cl);
+  background-color: var(--hero-bg-cl);
+}
+
+.hero-tittle {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+  font-weight: 700;
+  text-align: center;
+}
+.hero-btn {
+  font-family: inherit;
+  background-color: var(--color-iris);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--accent-color);
+}
+
+/* Advantages */
+.advantages-list {
+}
+.advantages-item {
+}
+.advantages-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+.advantages-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
