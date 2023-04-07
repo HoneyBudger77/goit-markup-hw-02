@@ -1,0 +1,65 @@
+:root {
+    --color-iris: #4D5AE5;
+    --color-ocean: #404BBF;
+    --color-navy-blue: #2E2F42;
+    --color-green: #31D0AA;
+    --color-slate: #434455;
+    --color-light-slate: #8E8F99;
+    --color-cornflowers: #E7E9FC;
+    --color-cloud: #F4F4FD;
+    --color-navy-blue-modal: #2E2F42;
+    --color-grey: #2E2F42;
+    --color-white: #FFFFFF;
+    --color-diary: #FCFCFC;
+
+    /* Fonts */
+    --primary-font: Roboto;
+    --secondary-font: Raleway;
+}
+.body {
+    background-color: var(--color-white);
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+}
+.header {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-iris);
+    text-decoration: none;
+    
+}
+.address {
+}
+.header-nav {
+
+}
+.header-logo {
+}
+.header-logo-two {
+
+}
+.header-list {
+}
+.list {
+}
+.header-item {
+}
+.header-link {
+}
+.link-mail {
+}
+.link-phone-number {
+}
+.hero {
+    background-color: #2E2F42;
+}
+.hero-tittle {
+    color: #FFFFFF;
+}
+.hero-btn {
+}
+
