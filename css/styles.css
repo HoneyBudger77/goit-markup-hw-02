@@ -32,7 +32,7 @@
     text-transform: uppercase;
     color: var(--color-iris);
     text-decoration: none;
-    
+    font-style: normal;
 }
 .address {
 }
@@ -40,9 +40,11 @@
 
 }
 .header-logo {
+    color: var(--color-iris);
+    
 }
 .header-logo-two {
-    color: #2E2F42;
+    color: var(--color-navy-blue);
 
 }
 .header-list {
@@ -52,6 +54,17 @@
 .header-item {
 }
 .header-link {
+    color: var(--color-navy-blue);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.header-link:hover {
+    color:var(--color-ocean);
+}
+.header-link:focus {
+    color: var(--color-ocean);
 }
 .link-mail {
 }
