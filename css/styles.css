@@ -1,10 +1,10 @@
 .body {
-  font-family: var(--primary-font), sans-serif;
-  color: var(--color-slate);
-  background-color: var(--body-bg-cl);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-slate);
+    background-color: var(--body-bg-cl);
 }
 :root {
     /* Fonts */
