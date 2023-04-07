@@ -47,6 +47,9 @@
 }
 .header-logo-two {
     color: var(--color-navy-blue);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .header-list {
 }
@@ -68,7 +71,8 @@
     color: var(--color-ocean);
 }
 .link {
-    text-decoration:none; 
+    text-decoration:none;
+    font-style: normal;
 }
 .link-mail {
 }
