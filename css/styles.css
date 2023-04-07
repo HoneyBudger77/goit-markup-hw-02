@@ -169,3 +169,83 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
+
+/* What are we doing */
+.title-sections {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-navy-blue);
+}
+
+/* Our Team */
+.team-sections {
+  background-color: var(--team-bg-cl);
+}
+.team-list {
+}
+.team-item {
+  background-color: var(--color-white);
+}
+.team-subbtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--color-navy-blue);
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
+/* PORTFOLIO */
+
+/* Filter */
+.filter {
+}
+.filter-list {
+}
+.filter-item {
+}
+.btn-filter {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--color-btn-filter);
+  background-color: var(--btn-filter-bg);
+  cursor: pointer;
+}
+.btn-filter:hover,
+.btn-filter:focus {
+  color: var(--btn-filter-active-cl);
+  background-color: var(--btn-filter-bg-active);
+}
+/* Portfolio */
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--portfolio-text-cl);
+}
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--portfolio-title-cl);
+}
