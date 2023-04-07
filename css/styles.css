@@ -1,9 +1,16 @@
 .body {
   font-family: var(--primary-font), sans-serif;
   color: var(--color-slate);
-  background-color: var(--color-white);
+  background-color: var(--body-bg-cl);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 :root {
+    /* Fonts */
+  --primary-font: Roboto sans-serif;
+  --secondary-font: Raleway sans-serif;
+    /* Colors */
   --color-iris: #4d5ae5;
   --color-ocean: #404bbf;
   --color-navy-blue: #2e2f42;
@@ -16,10 +23,24 @@
   --color-grey: #2e2f42;
   --color-white: #ffffff;
   --color-diary: #fcfcfc;
-
-  /* Fonts */
-  --primary-font: Roboto;
-  --secondary-font: Raleway;
+  --color-btn-filter:#4D5AE5;
+  --btn-filter-active-cl:#FFFFFF;
+  --portfolio-title-cl:#2E2F42;
+  --portfolio-text-cl:#434455;
+  --logo-cl:#4d5ae5;
+  --logo-list-cl:#2E2F42;
+  --logo-cl:#4d5ae5;
+    --logo-list-cl:#2E2F42;
+    /* accent-color*/
+	--accent-color: #404bbf;
+    /* BG colors */
+    --body-bg-cl: #ffffff;
+    --hero-bg-cl:#2E2F42;
+    --team-bg-cl:#F4F4FD;
+    --footer-bg-cl:#2E2F42;
+    --portfolio-bg-cl:var(--color-white);
+    --btn-filter-bg: #F4F4FD;
+    --btn-filter-bg-active:#404BBF;
 }
 .header {
   font-family: "Raleway", sans-serif;
@@ -51,6 +72,7 @@
 .header-list {
 }
 .list {
+    list-style: none;
 }
 .header-item {
 }
@@ -69,7 +91,6 @@
 }
 .link {
   text-decoration: none;
-  font-style: normal;
 }
 .link-mail {
 }
