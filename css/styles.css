@@ -120,6 +120,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-cloud);
 }
+.list {
+  list-style: none;
+  }
+  .link {
+  text-decoration: none;
+  }
+  
 
 /* Hero secction*/
 .hero-section {
